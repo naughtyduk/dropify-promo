@@ -1,0 +1,20 @@
+{
+  "name": "dropify-promo",
+  "version": "1.0.0",
+  "main": "cookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs-src --base /docs/",
+    "docs:build": "vitepress build docs-src --base /docs/ --outDir docs",
+    "docs:preview": "vitepress preview docs-src --base /docs/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
