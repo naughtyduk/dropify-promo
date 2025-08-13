@@ -7,6 +7,7 @@ export default defineConfig({
   description: "Documentation for DROPIFY®",
   lastUpdated: true,
   base: "/",
+  cleanUrls: true,
   head: [
     ["meta", { name: "theme-color", content: "#151515" }],
     ["meta", { name: "msapplication-TileColor", content: "#151515" }],
