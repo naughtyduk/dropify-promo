@@ -51,8 +51,8 @@ export default defineConfig({
       {
         text: "Getting Started",
         items: [
-          { text: "Documentation", link: "/docs/" },
           { text: "About Dropify®", link: "/about" },
+          { text: "Documentation", link: "/docs/" },
           { text: "Getting Started", link: "/getting-started" },
         ],
       },

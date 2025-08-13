@@ -1,7 +1,7 @@
 :root {
   /* Light mode: keep theme backgrounds; pin brand to red */
-  --vp-c-brand-1: #eb211b;
-  --vp-c-brand-2: #eb211b;
+  --vp-c-brand-1: #f03d37;
+  --vp-c-brand-2: #f03d37;
 }
 
 .dark {
@@ -9,8 +9,8 @@
   --vp-c-bg: #0f0f0f;
   --vp-c-bg-soft: #151515;
   --vp-c-bg-alt: #0b0b0b;
-  --vp-c-brand-1: #eb211b;
-  --vp-c-brand-2: #eb211b;
+  --vp-c-brand-1: #f03d37;
+  --vp-c-brand-2: #f03d37;
 }
 
 /* Root landing page overrides (only when legacy homepage is active) */
