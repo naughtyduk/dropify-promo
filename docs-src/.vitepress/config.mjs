@@ -49,8 +49,28 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: "Docs",
-        items: [{ text: "Documentation", link: "/docs/" }],
+        text: "Getting Started",
+        items: [
+          { text: "Documentation", link: "/docs/" },
+          { text: "About Dropify®", link: "/about" },
+          { text: "Getting Started", link: "/getting-started" },
+        ],
+      },
+      {
+        text: "Core Features",
+        items: [
+          { text: "Dashboard", link: "/dashboard" },
+          { text: "Design", link: "/design" },
+          { text: "Settings", link: "/settings" },
+          { text: "Customers", link: "/customers" },
+        ],
+      },
+      {
+        text: "Support",
+        items: [
+          { text: "Billing", link: "/billing" },
+          { text: "FAQ", link: "/faq" },
+        ],
       },
     ],
   },
