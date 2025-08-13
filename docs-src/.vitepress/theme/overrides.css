@@ -254,3 +254,44 @@ body.dropify .VPNavBarExtra {
   max-width: 100%;
   height: auto;
 }
+
+/* Mobile logo optimization - show mobile logo on smaller screens */
+@media screen and (max-width: 768px) {
+  /* Hide the regular logo images */
+  .VPNavBarTitle .VPImage.logo {
+    display: none !important;
+  }
+
+  /* Add mobile logo after the title element */
+  .VPNavBarTitle .title::after {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    background-image: url("/assets/D-Logo-Mob.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    vertical-align: middle;
+  }
+
+  /* Make sure the title link doesn't have text */
+  .VPNavBarTitle .title {
+    font-size: 0 !important;
+    line-height: 0 !important;
+  }
+
+  /* Hide only the Home and Docs navigation links on mobile, keep Get App button */
+  .VPNavBarMenu .VPNavBarMenuLink:not([href="https://apps.shopify.com"])
+  {
+    display: none !important;
+  }
+}
+
+/* For very small mobile screens, make logo even smaller */
+@media screen and (max-width: 480px) {
+  .VPNavBarTitle .title::after {
+    width: 54px;
+    height: 18px;
+  }
+}
