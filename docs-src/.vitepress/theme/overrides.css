@@ -28,13 +28,34 @@ body.dropify .VPContent {
 /* Links color on the legacy homepage */
 body.dropify #legacy-host a {
   color: #f5f5f5 !important;
+  text-decoration: none !important;
+  -webkit-text-decoration: none !important;
 }
 body.dropify #legacy-host a:hover,
 body.dropify #legacy-host a:focus {
   color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 /* Align Get app button icon same as Watch video */
 body.dropify #legacy-host .btn-dropify::before {
   top: 52% !important;
+}
+
+/* Make both buttons exactly the same vertical rhythm */
+body.dropify #legacy-host .btn-dropify,
+body.dropify #legacy-host .btn-dropify-menu {
+  display: inline-flex !important;
+  align-items: center !important;
+  line-height: 1 !important;
+  padding: 1rem 1rem 0.85rem !important;
+  border: 0 !important;
+}
+
+/* Extra guard: hide any lingering VP nav/search controls on root */
+body.dropify .VPNavBarSearch,
+body.dropify .VPNavBarMenu,
+body.dropify .VPNavBarAppearance,
+body.dropify .VPNavBarExtra {
+  display: none !important;
 }
