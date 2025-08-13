@@ -1,6 +1,6 @@
 # Design
 
-The Design page allows you to customise the visual appearance of your countdown landing page, including branding, typography, forms, and advanced styling options.
+The Design page allows you to customise the visual appearance of your countdown landing page, including branding, typography, forms, visual effects, legal terms, and advanced styling options.
 
 ![Design Overview](/assets/dropify-tour-design.gif)
 
@@ -20,7 +20,7 @@ Choose from preset backgrounds or upload your own custom image or video.
 
 ### Preset Backgrounds
 
-Three curated background options are available for immediate use.
+Five curated background options are available for immediate use, including both static images and video backgrounds.
 
 ### Custom Uploads
 
@@ -89,6 +89,49 @@ Configure which country codes appear first in the phone number dropdown:
 
 - **Button Text**: Customise the submit button (default: "GET UPDATES")
 - **Success Message**: Message shown after successful submission (default: "Successfully subscribed")
+
+## Visual
+
+Control the visual appearance and overlay effects of your countdown page.
+
+### Background Overlay
+
+Configure the overlay that appears over your background image or video:
+
+- **Colour Selection**: Choose any colour with the colour picker
+- **Opacity Control**: Adjust transparency level using the alpha slider
+- **Purpose**: Improves text legibility and contrast over busy backgrounds
+- **Toggle**: Enable or disable the overlay entirely
+
+### Corner Dots
+
+Customise the decorative corner dots that appear on your countdown page:
+
+- **Colour Selection**: Choose any colour for the corner dots
+- **Default**: White dots
+- **Toggle**: Enable or disable corner dots entirely
+
+## Legal Terms
+
+Include legal disclaimers and terms for your email and SMS collection.
+
+### Rich Text Editor
+
+- **Formatting Options**: Bold, italic, strikethrough, links, and text alignment
+- **Character Limit**: 200 characters (HTML tags not counted)
+- **Link Handling**: All links automatically open in new tabs
+- **Visibility Toggle**: Show or hide legal terms
+
+### Common Use Cases
+
+- SMS opt-in disclaimers
+- Privacy policy links
+- Terms of service references
+- Marketing consent language
+
+::: tip
+Some SMS providers require specific legal language. Check with your SMS service provider for required disclaimers.
+:::
 
 ## Advanced Customisation
 

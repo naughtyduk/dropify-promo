@@ -238,3 +238,19 @@ body.dropify .VPNavBarExtra {
 {
   color: #ffffff !important;
 }
+
+/* Add border radius to documentation GIFs to match video styling */
+.vp-doc img[src$=".gif"] {
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Also target GIFs in markdown content */
+.VPContent img[src*="dropify-tour"] {
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  height: auto;
+}
