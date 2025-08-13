@@ -82,13 +82,19 @@ onUnmounted(() => {
 </script>
 
 <style>
-html,
-body,
-#app,
 #legacy-host {
-  height: 100%;
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
 }
-#legacy-host {
-  min-height: 100vh;
+.VPDoc,
+.VPContent,
+.VPApp,
+.VPNav,
+.VPNavBar {
+  background: transparent !important;
 }
 </style>
