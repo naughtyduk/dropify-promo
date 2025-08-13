@@ -44,6 +44,11 @@ export default defineConfig({
       provider: "local",
     },
     nav: [
+      {
+        text: "Get App",
+        link: "https://apps.shopify.com",
+        target: "_blank",
+      },
       { text: "Home", link: "/" },
       { text: "Docs", link: "/docs/" },
     ],
