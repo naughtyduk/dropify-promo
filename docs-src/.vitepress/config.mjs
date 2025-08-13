@@ -2,7 +2,8 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "DROPIFY® Docs",
+  title: "",
+  titleTemplate: false,
   description: "Documentation for DROPIFY®",
   lastUpdated: true,
   base: "/",
@@ -37,6 +38,7 @@ export default defineConfig({
       light: "/assets/Dropify Logo Dark.svg",
       dark: "/assets/Dropify Logo Light.svg",
     },
+    siteTitle: false,
     outline: [2, 4],
     search: {
       provider: "local",
