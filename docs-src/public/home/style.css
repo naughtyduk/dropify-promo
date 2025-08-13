@@ -574,9 +574,54 @@ span.animate-in {
   margin-top: 35svh;
 }
 
-@media (max-width: 575px) {
+/* Button row layout for mobile */
+.button-row-top,
+.button-row-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-row-top {
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.button-row-bottom {
+  gap: 20px;
+}
+
+/* Desktop: display inline */
+@media (min-width: 769px) {
+  .btn-dropify-wrapper .column.center {
+    display: block;
+  }
+
+  .button-row-top,
+  .button-row-bottom {
+    display: inline;
+  }
+
+  .button-row-top {
+    margin-bottom: 0;
+    gap: 0;
+  }
+
+  .button-row-bottom {
+    gap: 0;
+  }
+}
+
+/* Mobile: stack rows */
+@media (max-width: 768px) {
   .btn-dropify-wrapper .column {
     margin-top: 45svh;
+  }
+
+  .btn-dropify-wrapper .column.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
