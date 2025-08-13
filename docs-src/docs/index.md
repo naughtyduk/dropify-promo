@@ -1,6 +1,6 @@
 ---
 title: DROPIFY® Docs
-outline: [2,4]
+outline: [2, 4]
 ---
 
 ## Introduction

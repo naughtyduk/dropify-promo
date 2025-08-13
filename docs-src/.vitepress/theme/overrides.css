@@ -1,10 +1,14 @@
 :root {
-  --vp-c-bg: #0a0a0a;
-  --vp-c-bg-soft: #0f0f0f;
-  --vp-c-bg-alt: #0c0c0c;
+  /* Light mode: keep theme backgrounds; pin brand to red */
+  --vp-c-brand-1: #eb211b;
+  --vp-c-brand-2: #eb211b;
 }
 
 .dark {
+  /* Dark mode: restore your custom backgrounds and brand */
+  --vp-c-bg: #0f0f0f;
+  --vp-c-bg-soft: #151515;
+  --vp-c-bg-alt: #0b0b0b;
   --vp-c-brand-1: #eb211b;
   --vp-c-brand-2: #eb211b;
 }
