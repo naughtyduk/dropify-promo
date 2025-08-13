@@ -43,14 +43,9 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Docs", link: "/getting-started" },
+      { text: "Docs", link: "/docs" },
     ],
-    sidebar: [
-      {
-        text: "Getting Started",
-        items: [{ text: "Introduction", link: "/getting-started" }],
-      },
-    ],
+    sidebar: false,
   },
   ignoreDeadLinks: true,
 });

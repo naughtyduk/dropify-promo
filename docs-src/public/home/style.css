@@ -677,10 +677,14 @@ span.animate-in {
 }
 
 .btn-dropify,
-.btn-dropify-menu,
-.btn-docs {
+.btn-dropify-menu {
   opacity: 0;
   cursor: not-allowed !important;
+}
+
+.btn-docs {
+  opacity: 0;
+  cursor: pointer !important;
 }
 
 /* Allow pointer cursor on the Watch Video trigger only */
