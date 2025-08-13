@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TEMP -->
+    <meta name="robots" content="noindex" />
+    <!-- END TEMP -->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Cache-Control" content="public, max-age=360000" />
+    <meta http-equiv="origin-trial" content="" />
+    <meta name="description" content="DROPIFY®" />
+    <meta
+      name="keywords"
+      content="DROPIFY®, dropify, shopify, app, merchandise, countdown timer, unlock"
+    />
+    <meta name="author" content="DROPIFY®" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="DROPIFY®" />
+    <meta property="og:title" content="DROPIFY®" />
+    <meta property="og:url" content="https://dropify.naughtyduk.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/LG-Displace-v1.jpg" />
+    <meta property="author" content="DROPIFY®" />
+    <meta
+      name="publish_date"
+      property="og:publish_date"
+      content="2023-16-06T00:00:00-0600"
+    />
+    <meta property="og:description" content="DROPIFY®" />
+    <title>DROPIFY® - Build Hype For Your Shopify Merch Drop</title>
+    <link rel="stylesheet" href="./style.css?v=1.1" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Dropify®" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="DROPIFY&reg;" />
+    <meta name="application-name" content="DROPIFY&reg;" />
+    <meta name="msapplication-TileColor" content="#151515" />
+    <meta name="theme-color" content="#151515" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="dropify">
+    <div id="cookie-notice">
+      <div class="cookies__inner-left">
+        <p>
+          We use Cookies to improve your experience. By closing this notice you
+          agree to the use of Cookies.
+        </p>
+      </div>
+      <div class="cookies__inner-right">
+        <i class="fa fa-close"></i>
+      </div>
+    </div>
+    <div class="overlay-gradient"></div>
+    <nav id="main-nav">
+      <div class="navbar-wrapper">
+        <div class="navbar">
+          <div class="column center"></div>
+        </div>
+      </div>
+    </nav>
+    <div class="logo-overlay-clip" id="ripples">
+      <div id="logo-overlay" class="logo-overlay js-tilt" data-tilt>
+        <img src="/assets/Dropify Logo Light.svg" alt="Dropify® Emblem" />
+      </div>
+    </div>
+    <div class="btn-dropify-wrapper">
+      <div class="column center">
+        <a
+          class="btn-dropify-menu video-hover-area animate-in"
+          href="#"
+          role="button"
+          >Watch video</a
+        >
+        <button class="btn-dropify animate-in">Get app</button>
+      </div>
+    </div>
+    <div id="grain-overlay"></div>
+    <div id="color-overlay"></div>
+    <main id="animated-content">
+      <div class="content">
+        <div id="parent">
+          <video
+            id="canvasVideo"
+            src="/assets/bkg-main.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+          ></video>
+          <div id="rgbKineticSlider" class="rgbKineticSlider modified"></div>
+        </div>
+        <nav>
+          <a
+            href="#"
+            class="main-nav prev"
+            data-nav="previous"
+            aria-label="View previous artist profile"
+            ><span></span
+          ></a>
+          <a
+            href="#"
+            class="main-nav next"
+            data-nav="next"
+            aria-label="View next artist profile"
+            ><span></span
+          ></a>
+        </nav>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footerbar">
+          <span class="animate-in"
+            >By
+            <a target="_blank" href="https://naughtyduk.com"
+              >NaughtyDuk<span class="copyright-icon">©</span></a
+            ></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Fullscreen Video Player -->
+    <div class="fullscreen-player" aria-hidden="true">
+      <div
+        class="close-btn"
+        tabindex="0"
+        role="button"
+        aria-label="Close video player"
+      ></div>
+      <video
+        src="https://dropify.naughtydukassets.com/Dropify-Promo-Video-v3.mp4"
+        playsinline
+      ></video>
+      <div class="custom-controls">
+        <button
+          class="play-pause-btn"
+          role="button"
+          aria-label="Play video"
+        ></button>
+        <div class="progress-bar-container" aria-label="Video progress">
+          <div class="progress-bar-fill"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/TweenMax.min.js"></script>
+    <script src="./js/imagesLoaded.pkgd.min.js"></script>
+    <script src="./js/pixi.min.js"></script>
+    <script src="./js/pixi-filters.min.js"></script>
+    <!-- <script src="./js/jquery.ripples-min.js"></script> -->
+    <script src="./js/grained.min.js"></script>
+    <script src="./js/slider-source.js"></script>
+    <script src="./js/tilt.jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/cookie.js"></script>
+  </body>
+</html>
+<!---MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKd::dKWMMMMMMMMMMN0O0NWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMKc.  'kWMMMMMMMMNO:. 'xNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWO,   ,OWMMMMMMMWO;   .dXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWNNNWMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWk,   ,OWMMMMMMMWk'   .xNMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXOOXWMMMMMMMMN0ddOXWMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWk,   ,kNMMMMMMMWO,   .dNMMMMMMMMMMMMMMMMMMMMMMMMMMWXd,..,xNMMMMMMWXx;..:kXWMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWk;.  .oXMMMMMMMM0:   .lKMMMMMMMMMMMMMMMMMMMMMMMMMMW0c.   'xNMMMMNk;. .:kKNWMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWN0kdolccclllllodo,   .:0WMMMMMMMXl.  .:0WMMMMMMMMMMMMMMMMMMMMMMMMMMWO;   .:0WMMNx'  'xXWMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWMMMMMMMMMMMWX0k0NWMMMMMMMMMMMMMMMMMWXkl;..                   'xNMMMMMMMMKc.  .cKWMMMMMMMMMMMMMMMMMMMMMMMMMMMNO;   .oXMNx'  ,kNMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMXkoc;;cxKWMMMMMMW0:..cKWMMMWKOXWMMMMWKxoc;'        ....            .oXMMMMMMMWk'   ,xNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0:   .lxl.  'kWMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMW0c.      'xXWMMMMNo. .dNMMMW0;.lXMWXkc.     .:ldxxkO0KK0Okxxxl.      .dXNNNNXX0l.   .;OWMMMMMMMMMXkox0XWWWNKOkkkdoooddo,        'xNMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMWKkxkKWWO;   .,cc'..c0WMMMKc. 'kWMMMNo. :K0l'.     'oKWMMMMMMMMMMMMMMM0'       ..''''...     .cKMMMMMMMMMWk,....:ll;.           ..      .oXMMMMMMMMMMMMMM
+MMMMMWXkk0XWMMMMMNx'  ,dkc.   ,kWWKo..;xKWWXd'.:KWMMW0:  'c,     .;oKWMMMMMMMMMMMMMMMMMK:                     ,kNWNNNXXK0kl.                      .',..  .lONWMMMMMMMMMMMM
+MMMMMNd. ..;ldxkKWNk:. ...   .,kWMMXkc'.'cdO0kc;dKWWXo.       .'cONWMMMMMMMMMMMMMMMMMMMNo.      ..,,,'...     .,;,'......        .';lodxkOOOOOkkxkOKOc;. .'l0NWMMMMMMMMMMM
+MMMMMW0l.      .lKWWXx;. .;ccoxkkxdxkd:..,ldoc::lOXNKc.      ,xXWMMMMMMMMWNX0xlcclokXNWWKl.     ;ONWWNXX0d,                    .lONWMMMMMMMMMMMMMMWNO;...c0NWMMMMMMMMMMMMM
+MMMMMXd'.     .:ONNkc'..cOXXkc'.        .dOc. ;OWMMMWk' ..  .lKWMWXklcccc;'..       .,;okx'    .oXMMMMMMWKc    .,,;;::::c:,..  ,xKWMMMMMMMMMMMMMMWNk,  .cKWMMMMMMMMMMMMMMM
+MMMMMXd.       .ck0d.   :OXk;. .cxkxl'   ,o:. ,OWMMMWO,    .;OWWKx;.                    ',.    :KMMMMN0OOx'   .cONWWWWMMMWXOc. .lKWMMMMMMMMMMMMMMMNd.  ,kNMMMMMMMMMMMMMMMM
+MMMMMWKl.     .  .'.    .oOo'.,dXWMMW0l. .;:. .oXWMMNd.    .oKWXo.      .,:lodkko'      ..     :0WMMWO, ..     'dXWMMMMMMWNO;  .lKWMMMMMMMMMMMMMMW0;  .xNMMMMMMMMMMMMMMMMM
+MMMMMMWk;   .;odl'      .lkl'.cONMMMMWO;  .'.  ;0WWXx,     .dNWXx'     'kNMMMMMMNd.            .lKWWWKc.       .oXWMMMMWNNN0c.  ,kWMMMMMMMMMMMMMWKc. .oXMMMMMMMMMMMMMMMMMM
+MMMMMMW0:.  .;kXN0l.    .co:..;xXNNX0d,.  ';'  .lxo;.  .   .dNMWN0dlcco0WMMMMMMMWO:.     ....   'dKWWWKo.       ;0WMWXk:';ox;   ;OWMMMMMMMMMMMMMKc.  :0WMMMMMMMMMMMMMMMMMM
+MMMMMMW0c.  .;kXWWXo.  .:k0d'. .'''..  .;oOOc.       .:l.   ;OWMMMMMMMMMMMMMWWNKx:.     .;xOo,..'oKWMMWK:      .cKWWKl.   ,:.  .:0WMMMMMMMMMMMMXo.  'kWMMMMMMMMMMMMMMMMMMM
+MMMMMMMXo.   'dKWMMN0xdOXWWNOdc;;;;:ldOKNWMWO:.    'ckX0:.   .:oxkO0000OOkkxoc;'.    ..:xKWMWX0OKNWMMMWKc.     'xNNk;.    ',.  .cKWMMMMMMMMMMMWk'   ;0MMMMMMMMMMMMMMMMMMMM
+MMMMMMMNk,  .:ONWMMMMMMMMMMMMMMWWWWWMMMMMMMMWN0xodkKNWMWO;......   ..            .'cx0KNMWKxdkXWMMMWKdcc;.     .o0x,     .cc.   ;0WMMMMMMMMMMMNo.   ;0MMMMMMMMMMMMMMMMMMMM
+MMMMMMMMN0xdOXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXkl::oO0kdc;'.........,cdOXWMMMMMNd..'l0WMMNd.  ..      .;,      :O0l.  .c0WMMMMMMMMMMNx'   ;0MMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWX0XWMMMWNKOo;'....';ldOXWWMMMMNk:'':xXWWNo.  .,'            .:ONNk,    ,kNMMMMMMMMMW0c..cONMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKkl;..  ..      .oXWMMMMWX0o,';dO0K0dlc;''....       .,o0NNKxlc;,':ldONWMMMMMWNK0KNMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKxl;.   .:dO000kc.   'xNMMMMKl'.'lONWWW0l,'';c;...      .:dOXWWMMMMWXOxdxKNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK:.   .;xKNWWWMMMXl.   ,xKXNXd' .lKNWWWNx'  .ox;        .cKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNkoodoodxxOK0O0NMWX0xl,...':dko;,;ldxxx0Kkdl:ldc...      .cOXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXxcc:,;d0NWWNNWMMMNx'    .ckl. .lOXNNNNKxl:',cdl;...      .':lxOXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWK:   .oNMMMMMMMMMMNo.    .co'  :0WMMMMNd.  .l0k;     .          .;d0NWMMMWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMXo.  .lXMMMMMMMMMMWx.    .:c.  ;0WMMMWO;    ;OO;    .lkdc,..       .,cdOXXXNWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXd'  'dKNWMWXNMMMWKl....'cc.  'xNMMWKc.    .lx:.  ..;cccclxOOkxdl,. ...;xXWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKkl,':dO00KNWWWWKo;;:codl;...;xXNXd.   .'''.',,......cdkXMMMWWWO:'...,dXWWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWKxdc;cd0NNNWKc.  .;cxxoc;...'::'    'dkc...;,.   .c0WMMMMMMWX0kddOXWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXx;..,dKWMMMWXo.   ,oOXK000xc;'.     .:0N0:.  .'.   .dNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKo'  .;d0XXO:.   ;OXNMMMMWKxc;.    ..dNMNd'  'odc:lxKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWKd'   ....  .,dKWMMMMMMMMMNKOxdxO0KNWMMN0dcoKWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNk'    .'cdOXWMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMW0kxxk0XWMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM--->

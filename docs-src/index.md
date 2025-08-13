@@ -1,7 +1,7 @@
 ---
 layout: home
-title: DROPIFY® Documentation
-titleTemplate: Build hype for your Shopify merch drop
+title: DROPIFY®
+titleTemplate: Documentation
 hero:
   name: DROPIFY®
   text: Build hype for your Shopify merch drop
@@ -27,4 +27,4 @@ features:
 
 Welcome to the DROPIFY® docs.
 
-This site is powered by VitePress and will be published under `/docs` so your existing landing page remains at `/`.
+This site is powered by VitePress at the root. Your original marketing homepage lives at `/home/`.

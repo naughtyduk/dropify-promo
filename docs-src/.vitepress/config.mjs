@@ -5,7 +5,7 @@ export default defineConfig({
   title: "DROPIFY® Docs",
   description: "Documentation for DROPIFY®",
   lastUpdated: true,
-  base: "/docs/",
+  base: "/",
   head: [["meta", { name: "theme-color", content: "#0a0a0a" }]],
   themeConfig: {
     logo: {
@@ -17,7 +17,7 @@ export default defineConfig({
       provider: "local",
     },
     nav: [
-      { text: "Home", link: "/" },
+      { text: "Home", link: "/home/" },
       { text: "Docs", link: "/getting-started" },
     ],
     sidebar: [
