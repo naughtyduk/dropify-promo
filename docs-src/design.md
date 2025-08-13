@@ -40,7 +40,7 @@ Videos should be in MP4 format and will auto-play with muted audio for the best 
 
 Choose from bundled fonts or upload your own custom font files:
 
-- **Bundled Fonts**: Pre-loaded font families with multiple weights
+- **Bundled Fonts**: Pre-loaded license free font families with multiple weights
 - **Custom Upload**: Upload TTF, OTF, WOFF, or WOFF2 font files
 - **Font Weights**: Select from available weights (100-900)
 
@@ -50,7 +50,7 @@ Set the main heading that appears above the countdown timer.
 
 - **Character Limit**: 50 characters
 - **Visibility Toggle**: Show or hide the heading
-- **Example**: "Our next merchandise drop goes live in..."
+- **Example**: "Next apparel drop in"
 
 ### Sub-heading Text
 
@@ -58,7 +58,7 @@ Set descriptive text that appears below the countdown timer.
 
 - **Character Limit**: 100 characters
 - **Visibility Toggle**: Show or hide the sub-heading
-- **Example**: "Drop017 × CollabBrand is the next instalment in our series of bespoke apparel..."
+- **Example**: "Drop017 × CollabBrand coming soon."
 
 ## Form Configuration
 
@@ -122,7 +122,7 @@ Include legal disclaimers and terms for your email and SMS collection.
 ### Rich Text Editor
 
 - **Formatting Options**: Bold, italic, strikethrough, links, and text alignment
-- **Character Limit**: 200 characters (HTML tags not counted)
+- **Character Limit**: 200 characters
 - **Link Handling**: All links automatically open in new tabs
 - **Visibility Toggle**: Show or hide legal terms
 
@@ -134,7 +134,7 @@ Include legal disclaimers and terms for your email and SMS collection.
 - Marketing consent language
 
 ::: tip
-Some SMS providers require specific legal language. Check with your SMS service provider for required disclaimers.
+Some SMS providers require specific legal language. Check with your SMS service provider for required disclaimers and/or links that you may need to include.
 :::
 
 ## Advanced Customisation
@@ -156,5 +156,5 @@ Add custom functionality or tracking:
 - **Execution**: Runs after page load
 
 ::: warning
-Custom code runs on your customer-facing page. Test thoroughly before enabling.
+Custom code runs on your customer-facing page. Test thoroughly before driving traffic.
 :::

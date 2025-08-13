@@ -20,8 +20,8 @@ The main status card shows whether Dropify® is currently protecting your site:
 - **Configure Button**: When disabled, clicking this takes you to Settings to set up your countdown
 - **Disable Button**: When enabled, clicking this immediately removes protection (with confirmation)
 
-::: warning
-Disabling Dropify® immediately grants access to your site. You'll need to reconfigure your settings to re-enable protection.
+::: danger
+**BE CAREFUL**. Disabling Dropify® immediately grants access to your site. You'll need to reconfigure your settings to re-enable protection. You will be prompted to confirm your intent to disable.
 :::
 
 ## Quick Actions

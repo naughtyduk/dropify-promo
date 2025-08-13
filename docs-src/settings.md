@@ -4,7 +4,7 @@ title: Settings - Docs - DROPIFY®
 
 # Settings
 
-Configure when your countdown ends and how your site behaves when the timer reaches zero.
+Configure when your countdown ends, and how your site behaves when the timer reaches zero.
 
 <img src="/assets/dropify-tour-settings.gif" alt="Settings Overview" style="box-shadow: none !important; filter: none !important; -webkit-filter: none !important; border: none !important; background: none !important;" />
 
@@ -48,7 +48,7 @@ Configure what happens when the countdown reaches zero:
 
 When automatic unlock is enabled, you'll see a confirmation message showing your exact unlock schedule:
 
-_"Automatically unlock my site when the countdown ends, on **Friday 15 November 2024 at 14:30 (GMT +00:00)**"_
+_"Automatically unlock my site when the countdown ends, on **Friday 15 November 2026 at 14:30 (GMT +00:00)**"_
 
 ### Redirect Configuration
 
