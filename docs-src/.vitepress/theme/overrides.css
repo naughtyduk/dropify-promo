@@ -8,3 +8,33 @@
   --vp-c-brand-1: #ff2b70;
   --vp-c-brand-2: #ff4d88;
 }
+
+/* Root landing page overrides (only when legacy homepage is active) */
+body.dropify .VPNavBar,
+body.dropify .VPLocalNav,
+body.dropify .VPSidebar,
+body.dropify .VPNav,
+body.dropify .VPDocOutline,
+body.dropify .VPLocalSearchBox,
+body.dropify .VPSwitchAppearance,
+body.dropify .VPNavBarTitle {
+  display: none !important;
+}
+
+body.dropify .VPContent {
+  padding-top: 0 !important;
+}
+
+/* Links color on the legacy homepage */
+body.dropify #legacy-host a {
+  color: #f5f5f5 !important;
+}
+body.dropify #legacy-host a:hover,
+body.dropify #legacy-host a:focus {
+  color: #ffffff !important;
+}
+
+/* Align Get app button icon same as Watch video */
+body.dropify #legacy-host .btn-dropify::before {
+  top: 52% !important;
+}
