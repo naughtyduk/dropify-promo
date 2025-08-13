@@ -14,10 +14,14 @@ All customer information collected through your countdown page is automatically 
 
 ### Data Captured
 
-- **Email Address**: Required field for all submissions
+- **Email Address**: Optional field for all submissions
 - **Phone Number**: Optional field if enabled in Design settings
 - **Submission Date**: Automatically tracked
 - **Source**: Tagged as "Dropify" for easy identification
+
+::: info
+You must enable at least one capture field, you can set just email/phone or both.
+:::
 
 ### Marketing Preferences
 
