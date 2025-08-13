@@ -296,6 +296,13 @@ body.dropify .VPNavBarExtra {
   }
 }
 
+a.header-anchor,
+a.header-anchor::before,
+a.header-anchor::after {
+  opacity: 0 !important;
+  color: transparent !important;
+}
+
 /* For very small mobile screens, make logo even smaller */
 @media screen and (max-width: 480px) {
   .VPNavBarTitle .title::after {

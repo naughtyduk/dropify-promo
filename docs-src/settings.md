@@ -6,7 +6,7 @@ title: Settings - Docs - DROPIFY®
 
 Configure when your countdown ends and how your site behaves when the timer reaches zero.
 
-![Settings Overview](/assets/dropify-tour-settings.gif)
+<img src="/assets/dropify-tour-settings.gif" alt="Settings Overview" style="box-shadow: none !important; filter: none !important; -webkit-filter: none !important; border: none !important; background: none !important;" />
 
 ## Next Drop Configuration
 

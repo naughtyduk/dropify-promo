@@ -2,12 +2,16 @@
 title: Introducing Dropify® - Docs - DROPIFY®
 ---
 
+::: info
+Dropify® is currently in BETA and will be available on the Shopify app store soon.
+:::
+
 # Introducing Dropify®
 
 <div class="docs-video-wrapper">
   <div class="docs-video-container">
     <video class="docs-video" preload="metadata">
-      <source src="https://dropify.naughtydukassets.com/Dropify-Promo-Video-v3.mp4" type="video/mp4">
+      <source src="https://dropify.naughtydukassets.com/Dropify-Promo-Video-v4.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <div class="docs-custom-controls">
@@ -33,7 +37,7 @@ title: Introducing Dropify® - Docs - DROPIFY®
   border-radius: 12px;
   overflow: hidden;
   background: #000;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
 }
 
 .docs-video {

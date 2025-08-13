@@ -6,7 +6,7 @@ title: Customers - Docs - DROPIFY®
 
 Track and manage customers who have signed up through your Dropify® countdown page.
 
-![Customers Overview](/assets/dropify-tour-customers.gif)
+<img src="/assets/dropify-tour-customers.gif" alt="Customers Overview" style="box-shadow: none !important; filter: none !important; -webkit-filter: none !important; border: none !important; background: none !important;" />
 
 ## Customer Data Collection
 

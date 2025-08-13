@@ -6,7 +6,7 @@ title: Dashboard - Docs - DROPIFY®
 
 The dashboard provides an overview of your Dropify® protection status and quick access to configuration options.
 
-![Dashboard Overview](/assets/dropify-tour-dash.gif)
+<img src="/assets/dropify-tour-dash.gif" alt="Dashboard Overview" style="box-shadow: none !important; filter: none !important; -webkit-filter: none !important; border: none !important; background: none !important;" />
 
 ## Status Card
 
