@@ -1,5 +1,5 @@
 ---
-title: DROPIFY® Documentation
+title: Documentation - Docs - DROPIFY®
 outline: [2, 4]
 ---
 
