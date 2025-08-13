@@ -1,4 +1,4 @@
-# About Dropify®
+# Introducting Dropify®
 
 <div class="docs-video-wrapper">
   <div class="docs-video-container">
@@ -240,7 +240,11 @@ if (typeof window !== 'undefined') {
 }
 </script>
 
-Dropify® is a Shopify app designed to build anticipation and drive sales for product launches by creating password-protected countdown landing pages. When customers visit your store, they'll see a customisable countdown timer with your branding, along with an email and phone collection form to capture interested customers before your drop goes live.
+**Dropify®** transforms ordinary product launches into **explosive events** that have customers counting down the seconds until your drop goes live. **Dropify®** is your secret weapon for creating **cult-like anticipation** around your products.
+
+While your competitors are doing boring launches, you're orchestrating a **full-scale product unveiling** that captures emails, phone numbers, and the minds of your audience. Your customers won't just want your product; they'll be **obsessed** with getting it the moment your countdown hits zero.
+
+**Turn launch day into a feeding frenzy**. Your audience is primed, your list is loaded, and as seen in our case study with major entertainment brands, sales explode from minute one.
 
 ## Key Features
 
