@@ -97,11 +97,11 @@
   border-width: 0 0 0 14px;
   border-color: #333333;
   height: 16px;
-  width: 6px;
+  width: 10px;
   border-left-style: solid;
   border-right-style: solid;
-  border-left-width: 5px;
-  border-right-width: 5px;
+  border-left-width: 4px;
+  border-right-width: 4px;
   transform: translate(-50%, -50%);
 }
 
