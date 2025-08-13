@@ -11,7 +11,7 @@ Welcome to the comprehensive documentation for DROPIFY®, the Shopify app that h
 
 New to Dropify®? Start here:
 
-1. **[About Dropify®](/about)** - Learn what Dropify® does and see case studies
+1. **[Introducing Dropify®](/about)** - Learn what Dropify® does and see case studies
 2. **[Getting Started](/getting-started)** - Install and set up your first countdown
 3. **[Settings](/settings)** - Configure your countdown date and unlock behavior
 4. **[Design](/design)** - Customize your landing page appearance

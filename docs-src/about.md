@@ -1,4 +1,4 @@
-# Introducting Dropify®
+# Introducing Dropify®
 
 <div class="docs-video-wrapper">
   <div class="docs-video-container">
