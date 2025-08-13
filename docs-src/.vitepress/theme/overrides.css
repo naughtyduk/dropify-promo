@@ -39,7 +39,7 @@ body.dropify #legacy-host a:focus {
 
 /* Align Get app button icon same as Watch video */
 body.dropify #legacy-host .btn-dropify::before {
-  top: 52% !important;
+  top: 50% !important;
 }
 
 /* Make both buttons exactly the same vertical rhythm */
@@ -49,6 +49,15 @@ body.dropify #legacy-host .btn-dropify-menu {
   align-items: center !important;
   line-height: 1 !important;
   padding: 1rem 1rem 0.85rem !important;
+  padding-left: 3rem !important; /* keep space for icon */
+  border: 0 !important;
+}
+body.dropify #legacy-host .btn-docs {
+  display: inline-flex !important;
+  align-items: center !important;
+  line-height: 1 !important;
+  padding: 1rem 1rem 0.85rem !important;
+  padding-left: 3rem !important;
   border: 0 !important;
 }
 
