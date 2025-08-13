@@ -1,3 +1,7 @@
+---
+title: Settings - Docs - DROPIFY®
+---
+
 # Settings
 
 Configure when your countdown ends and how your site behaves when the timer reaches zero.

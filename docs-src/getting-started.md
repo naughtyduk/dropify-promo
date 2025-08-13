@@ -1,3 +1,7 @@
+---
+title: Getting Started - Docs - DROPIFY®
+---
+
 # Getting Started
 
 ## Installation

@@ -1,3 +1,7 @@
+---
+title: Introducing Dropify® - Docs - DROPIFY®
+---
+
 # Introducing Dropify®
 
 <div class="docs-video-wrapper">

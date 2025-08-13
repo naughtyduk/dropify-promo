@@ -1,3 +1,7 @@
+---
+title: Billing - Docs - DROPIFY®
+---
+
 # Billing
 
 Dropify® uses a transparent usage-based pricing model with no upfront subscription fees.

@@ -1,3 +1,7 @@
+---
+title: Design - Docs - DROPIFY®
+---
+
 # Design
 
 The Design page allows you to customise the visual appearance of your countdown landing page, including branding, typography, forms, visual effects, legal terms, and advanced styling options.

@@ -1,3 +1,7 @@
+---
+title: Customers - Docs - DROPIFY®
+---
+
 # Customers
 
 Track and manage customers who have signed up through your Dropify® countdown page.

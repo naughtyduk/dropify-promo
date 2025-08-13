@@ -1,3 +1,7 @@
+---
+title: Dashboard - Docs - DROPIFY®
+---
+
 # Dashboard
 
 The dashboard provides an overview of your Dropify® protection status and quick access to configuration options.

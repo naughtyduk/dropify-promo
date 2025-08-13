@@ -1,3 +1,7 @@
+---
+title: FAQ - Docs - DROPIFY®
+---
+
 # FAQ
 
 ## General
