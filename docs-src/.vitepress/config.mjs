@@ -17,7 +17,7 @@ export default defineConfig({
       provider: "local",
     },
     nav: [
-      { text: "Home", link: "/home/" },
+      { text: "Home", link: "/" },
       { text: "Docs", link: "/getting-started" },
     ],
     sidebar: [
