@@ -275,6 +275,14 @@ body.dropify .VPNavBarExtra {
     vertical-align: middle;
   }
 
+  .VPNavScreen .container {
+    max-width: 100%;
+  }
+
+  .VPNavScreen {
+    padding: 0 24px !important;
+  }
+
   /* Make sure the title link doesn't have text */
   .VPNavBarTitle .title {
     font-size: 0 !important;
@@ -293,5 +301,18 @@ body.dropify .VPNavBarExtra {
   .VPNavBarTitle .title::after {
     width: 54px;
     height: 18px;
+  }
+}
+
+/* Invert mobile logo colors in light mode */
+@media screen and (max-width: 768px) {
+  /* Invert logo in light mode (default) */
+  .VPNavBarTitle .title::after {
+    filter: invert(1);
+  }
+
+  /* Don't invert in dark mode */
+  .dark .VPNavBarTitle .title::after {
+    filter: invert(0);
   }
 }

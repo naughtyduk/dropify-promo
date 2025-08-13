@@ -724,7 +724,6 @@ span.animate-in {
 .btn-dropify,
 .btn-dropify-menu {
   opacity: 0;
-  cursor: not-allowed !important;
 }
 
 .btn-docs {
