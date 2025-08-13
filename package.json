@@ -4,7 +4,10 @@
   "main": "cookie.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev docs-src --base /docs/",
+    "dev": "concurrently -k -n docs,site -c magenta,cyan \"npm:docs:dev\" \"npm:site:dev\"",
+    "site:dev": "vite --port 5174",
+    "preview": "vite preview --port 5175",
+    "docs:dev": "vitepress dev docs-src --base /docs/ --port 5173",
     "docs:build": "vitepress build docs-src --base /docs/ --outDir docs",
     "docs:preview": "vitepress preview docs-src --base /docs/"
   },
@@ -15,6 +18,8 @@
   "private": true,
   "type": "module",
   "devDependencies": {
+    "vite": "^5.4.3",
+    "concurrently": "^9.0.1",
     "vitepress": "^1.6.4"
   }
 }
