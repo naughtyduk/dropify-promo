@@ -30,13 +30,13 @@ Yes, you can enable Dropify® at any time to see how it looks and functions. All
 
 ### How far in advance should I set up my countdown?
 
-You can set your countdown for any future date. Many brands activate Dropify® 1-2 weeks before their launch to build maximum anticipation.
+You can set your countdown for any future date. Many brands activate Dropify® 2-4 weeks before their launch to build maximum anticipation.
 
 ## Customer Data
 
 ### Where is customer data stored?
 
-All submitted email addresses and phone numbers are stored in Shopify's native customer records. This makes them immediately available for use with other marketing apps and Shopify's built-in tools.
+All submitted email addresses and phone numbers are stored in Shopify's native customer records. This makes them immediately available for use with other marketing apps, Shopify's built-in tools and through custom API integreations.
 
 ### How are customers tagged?
 
@@ -60,6 +60,10 @@ Yes, Dropify® works with any domain configuration including custom domains, as 
 
 While protection is active, search engines will see your countdown page instead of product pages. Consider this when planning longer countdown periods.
 
+::: info
+It is recommended to have your merchandise store on a subdomain to segregate concerns, i.e https://shop.mybrand.com. If you need support in this area, contact NaughtyDuk©.
+:::
+
 ## Troubleshooting
 
 ### My countdown shows the wrong time
@@ -78,6 +82,10 @@ Custom fonts require time to propagate through the CDN. If fonts don't appear im
 
 Phone numbers must be in E.164 format (e.g., +44123456789). Ensure customers include the country code and that the number format is valid.
 
+::: info
+When testing you must use real phone numbers as Shopify filters out any numbers it believes to be spam, this is a Shopify feature that cannot be bypassed.
+:::
+
 ## Billing
 
 ### When am I charged?
@@ -91,3 +99,7 @@ Usage tracking and billing estimates may be available in your Shopify billing se
 ### What happens if I uninstall the app?
 
 Uninstalling Dropify® immediately removes all protection and restores normal site access. Any pending usage charges will still be processed on your next Shopify bill.
+
+::: warning
+Due to Shopify limitations, when you uninstall Dropify® you will need to copy the contents of the `password.liquid.backup` file into the `password.liquid` file to ensure the default Shopify password page is restored. Unfortuantely it is not possible to do this automatically, which is why we create a backup of your original password page on install.
+:::
