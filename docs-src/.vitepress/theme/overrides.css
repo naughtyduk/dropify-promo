@@ -11,6 +11,7 @@
   --vp-c-bg-alt: #0b0b0b;
   --vp-c-brand-1: #f03d37;
   --vp-c-brand-2: #f03d37;
+  --vp-c-text-1: #d0d0d0;
 }
 
 /* Root landing page overrides (only when legacy homepage is active) */

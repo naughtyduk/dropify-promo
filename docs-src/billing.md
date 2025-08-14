@@ -25,7 +25,7 @@ Dropify® uses transparent usage-based pricing with no monthly subscription fee.
 - Refunds
 
 ::: info
-Dropify® fees on refunded orders are automatically credited against future usage charges.
+Dropify® fees on refunded orders are automatically credited against future usage charges. If you refund an order, Dropify® will not take a fee against the refunded amount or item(s).
 :::
 
 ## Billing Frequency
