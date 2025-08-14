@@ -4,33 +4,34 @@ title: Billing - Docs - DROPIFY®
 
 # Billing
 
-Dropify® uses a transparent usage-based pricing model with no upfront subscription fees.
+Dropify® uses transparent usage-based pricing with no monthly subscription fee.
 
 ## Pricing Structure
 
-**0.75% of order subtotal** - You only pay when you make sales
+- **0.75% of order subtotal**
+- No Monthly Fee - you only pay when you make sales
+- Monthly Cap: Equivalent to £9,999.99 in your shop currency
+- Cancel Anytime
 
-- **No Monthly Fee**: Zero subscription costs
-- **Pay Per Sale**: Charged only on successful orders
-- **Monthly Cap**: £9,999.99 maximum charge per month
-- **Cancel Anytime**: No long-term commitments
+## Included
 
-## What's Included
+- 0.75% of order subtotal (product price × quantity)
 
-- Order subtotals (product price × quantity)
-- Shipping costs
-- Taxes and duties
+## Excluded
 
-## What's Excluded
-
-- Refunded orders (charges are reversed)
 - Test orders during development
-- Cancelled orders before fulfilment
+- Shipping, taxes and duties
+- Discounts
+- Refunds
+
+::: info
+Dropify® fees on refunded orders are automatically credited against future usage charges.
+:::
 
 ## Billing Frequency
 
-Charges are calculated and billed monthly based on your order volume from the previous billing period.
+Usage is recorded per order and appears on your Shopify monthly invoice according to Shopify's billing cycle.
 
 ## Fair Usage
 
-The monthly cap ensures predictable costs even during high-volume sales periods. Once the cap is reached, no additional Dropify® charges apply for that billing cycle.
+The monthly cap ensures predictable costs during high-volume periods. Once the cap is reached, no additional Dropify® charges apply for that cycle.
